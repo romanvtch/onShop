@@ -9,11 +9,15 @@ export default function Home({
   onAddToFavorite,
   onAddToCart,
 }) {
-
-
-
   return (
     <div className="content">
+      {/* <div className="baner">
+        <div className="textAndBtn">
+          <p><span>Stan Smith</span>,<br/>Forever!</p>
+          <button>Купити</button>
+        </div>
+        <img src="img/home/baner.png" alt="baner" />
+      </div> */}
       <div className="titleSearch">
         <h1>
           {searchValue ? `Пошук по запросу: ${searchValue}` : "Усі товари"}
@@ -51,7 +55,7 @@ export default function Home({
               // price={item.price}
               onFavorite={(obj) => onAddToFavorite(obj)}
               onPlus={(obj) => onAddToCart(obj)}
-              {...item}//secondWay
+              {...item} //secondWay
             />
           ))}
       </div>

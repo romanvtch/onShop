@@ -27,6 +27,54 @@ body {
 .content {
   padding: 40px;
 }
+.baner{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin-bottom: 40px;
+  width: 100%;
+
+  img{
+    width: 100%;
+  }
+  
+  .textAndBtn{
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    width: 100%;
+    
+    p{
+      font-weight: 700;
+      font-size: 38px;
+      span{
+        color: rgba(139, 180, 60, 1);
+      }
+    }
+    button {
+      height: 47px;
+      width: 100%;
+      max-width: 177px;
+      border: none;
+      background: #9dd558;
+      border-radius: 110px;
+      color: #ffff;
+      font-size: 16px;
+      font-weight: 500;
+      transition: 0.2s ease-in-out;
+      margin-top: 10px;
+
+      &:hover {
+        background: lighten($color: #9dd558, $amount: 10%);
+      }
+
+      &:active {
+        background: darken($color: #9dd558, $amount: 10%);
+      }
+    }
+  }
+}
 
 .titleSearch {
   display: flex;
@@ -65,8 +113,27 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
-  
+}
+@media(max-width:1920px){
+  .titleSearch{
+    h1{
+      max-width: 700px;
+      overflow: hidden;
+    }
+  }
+}
+@media(max-width:768px){
+  .titleSearch{
+    flex-direction: column;
+
+    h1{
+      max-width: 300px;
+      overflow: auto;
+    }
+  }
+  .search{
+    margin-top: 10px;
+  }
 }
 
 
