@@ -1,0 +1,41 @@
+.cartEmpty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0;
+    
+
+    h2{
+      margin: 9px 0;
+    }
+    p{
+      text-align: center;
+      opacity: 0.4;
+      margin-bottom: 30px;
+    }
+    .greenBtn {
+      position: relative;
+      width: 245px !important;
+      height: 55px;
+      border: none;
+      background: #9dd558;
+      border-radius: 18px;
+      color: #ffff;
+      font-size: 16px;
+      font-weight: 500;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        img {
+          transform: translateX(5px);
+        }
+      }
+      img {
+        position: absolute;
+        left: 20px;
+        top: 22px;
+        transition: all 0.2s;
+        rotate: 180deg;
+        
+      }
+    }
+  }
