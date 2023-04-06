@@ -33,9 +33,10 @@
       margin-bottom: 30px;
       img {
         cursor: pointer;
-        margin-top: 6px;
+        margin-top: 8.5px;
         transition: 0.2s ease-in-out;
         opacity: 0.5;
+        height: 20px;
 
         &:hover {
           opacity: 1;

@@ -29,7 +29,7 @@ export default function Favorites({ onAddToCart}) {
       </div> : 
       <Info
       title='Збережених немає :('
-      image='img/favorites/smile.png'
+      image='https://i.ibb.co/547p248/smileFav.png'
       description='Ви нічого не додавали до закладок.'/>}
     </div>
   );

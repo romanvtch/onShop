@@ -12,7 +12,7 @@ export default function Info({image,title, description}) {
       <p>{description}</p>
       <Link to='/onShop'>
       <button onClick={() => setCartOpeneded(false)} className={style.greenBtn}>
-        <img src="img/drawer/arrow.svg" alt="arrow" />
+        <img src="https://i.ibb.co/vkykXnM/arrow.png" alt="arrow" />
         Повернутись назад
       </button>
       </Link>

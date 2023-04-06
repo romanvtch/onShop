@@ -45,7 +45,7 @@ export default function Drawer({ items = [], onClose, onRemove, opened }) {
           <img
             onClick={onClose}
             width={20}
-            src="img/drawer/close.svg"
+            src="https://i.ibb.co/SPLVDyp/close.png"
             alt="close"
           />
         </h2>
@@ -66,7 +66,7 @@ export default function Drawer({ items = [], onClose, onRemove, opened }) {
                   <img
                     onClick={() => onRemove(obj.id)}
                     className="remove"
-                    src="img/drawer/remove.svg"
+                    src="https://i.ibb.co/dkFTh44/remove.png"
                     alt="remove"
                   />
                 </div>
@@ -92,7 +92,7 @@ export default function Drawer({ items = [], onClose, onRemove, opened }) {
                 className="greenBtn"
               >
                 Оформити замовлення
-                <img src="img/drawer/arrow.svg" alt="arrow" />
+                <img src="https://i.ibb.co/vkykXnM/arrow.png" alt="arrow" />
               </button>
             </div>
           </>
@@ -106,8 +106,8 @@ export default function Drawer({ items = [], onClose, onRemove, opened }) {
             }
             image={
               isOrderComlete
-                ? "img/drawer/completeOrder.png"
-                : "img/drawer/emptyBox.svg"
+                ? "https://i.ibb.co/7gJj5NT/order-Complete.png"
+                : "https://i.ibb.co/5ndzbW8/emptyBox.png"
             }
           />
         )}

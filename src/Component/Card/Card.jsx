@@ -29,7 +29,7 @@ export default function Card({
       {onFavorite && <img
         onClick={onClickFavorite}
         className="like"
-        src={isFavorite ? "img/card/Liked.svg" : "img/card/unLiked.png"}
+        src={isFavorite ? "https://i.ibb.co/t3rfBZ5/Liked.png" : "https://i.ibb.co/DKCGZbq/unLiked.png"}
         alt="like"
       />}
 
@@ -44,7 +44,7 @@ export default function Card({
         {onPlus && <img
           onClick={onClickPlus}
           src={
-            isItemAdded(id) ? "img/card/Added.svg" : "img/card/unAdded.svg"
+            isItemAdded(id) ? "https://i.ibb.co/fdzD6N7/added.png" : "https://i.ibb.co/nmMc8mb/unAdded.png"
           }
           alt="unAdded"
         />}
