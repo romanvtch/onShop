@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/onShop/static/css/main.91a1391f.css",
+    "main.js": "/onShop/static/js/main.bf822384.js",
+    "index.html": "/onShop/index.html",
+    "main.91a1391f.css.map": "/onShop/static/css/main.91a1391f.css.map",
+    "main.bf822384.js.map": "/onShop/static/js/main.bf822384.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91a1391f.css",
+    "static/js/main.bf822384.js"
+  ]
+}
