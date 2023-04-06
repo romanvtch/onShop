@@ -9,7 +9,7 @@ export default function Header(props) {
  
   return (
     <header>
-      <Link to="/">
+      <Link to="/onShop">
         <div className="headerLeft">
           <img src="img/header/logo.svg" alt="logo" />
           <div>

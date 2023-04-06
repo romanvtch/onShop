@@ -120,7 +120,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/"
+            path="/onShop"
             element={
               <Home
                 items={items}
