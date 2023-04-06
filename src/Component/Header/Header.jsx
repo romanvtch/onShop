@@ -13,7 +13,7 @@ export default function Header(props) {
         <div className="headerLeft">
           <img src="img/header/logo.svg" alt="logo" />
           <div>
-            <h3>React Sneakers</h3>
+            <h3>React Shop</h3>
             <p>Магазин найкращих кросівок</p>
           </div>
         </div>
